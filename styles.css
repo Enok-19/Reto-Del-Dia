@@ -38,3 +38,14 @@ body, html {
     transition: opacity 1s ease;
     font-family: 'Pacifico', cursive;
 }
+
+@media (max-width: 480px) {
+    #messageButton {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+
+    #dailyMessage {
+        font-size: 1.2em;
+    }
+}
