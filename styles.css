@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F8D7E9;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 0 20px;
+}
+
+#messageButton {
+    background: #6C63FF;
+    color: #FAFAFA;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Lato', sans-serif;
+}
+
+#messageButton:hover {
+    background: #4834d4;
+}
+
+#dailyMessage {
+    font-size: 1.5em;
+    color: #4834d4;
+    margin-top: 20px;
+    transition: opacity 1s ease;
+    font-family: 'Pacifico', cursive;
+}
